@@ -1,0 +1,184 @@
+/* Global Reset & Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1; /* Light Gray Background */
+    color: #333; /* Dark Text */
+    line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'PT Serif', serif;
+    color: #002147; /* Dark Navy Blue for headings */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #e6a800; /* Gold Accent for h3 */
+    margin-bottom: 0.5rem;
+}
+
+/* Header Styling */
+.header {
+    background-color: #003366; /* Dark Blue Background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header-content h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Header Image Section */
+.header-image img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Main Sections */
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+#about-us {
+    background-color: #fff; /* White Background for About */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-us ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#about-us ul li {
+    margin-bottom: 10px;
+}
+
+#about-us a {
+    color: #003366;
+    text-decoration: none;
+}
+
+#about-us a:hover {
+    text-decoration: underline;
+}
+
+/* Meetings Section */
+#meetings {
+    background-color: #f8f8f8;
+}
+
+.google-calendar iframe {
+    border: none;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    margin: 20px 0;
+}
+
+/* Key Links Section */
+#key-links {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#key-links ul {
+    list-style: none;
+}
+
+#key-links ul li {
+    margin: 10px 0;
+}
+
+#key-links a {
+    color: #e6a800; /* Gold Accent */
+    text-decoration: none;
+}
+
+#key-links a:hover {
+    text-decoration: underline;
+}
+
+/* Current Status Section */
+#current-status {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#current-status .download-link {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#current-status .download-link:hover {
+    background-color: #e6a800; /* Gold Accent Hover */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content h2 {
+        font-size: 1rem;
+    }
+
+    .google-calendar iframe {
+        height: 400px;
+    }
+}
