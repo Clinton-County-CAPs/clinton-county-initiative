@@ -47,13 +47,16 @@ h3 {
     margin-bottom: 1rem;
 }
 
-.header-content {
-    color: white; /* Make all text inside header-content white */
+.header-content h1,
+.header-content h2 {
+    color: white !important; /* Ensures both h1 and h2 text are white */
+    text-align: center;
 }
 
 .header-content h1 {
     font-size: 2.5rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .header-content h2 {
