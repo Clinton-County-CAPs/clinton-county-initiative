@@ -117,27 +117,27 @@ section {
 }
 
 /* Key Links Section */
-.key-links {
+#key-links {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.key-links ul {
+#key-links ul {
     list-style: none;
 }
 
-.key-links ul li {
+#key-links ul li {
     margin: 10px 0;
 }
 
-.key-links a {
+#key-links a {
     color: #e6a800; /* Gold Accent */
     text-decoration: none;
 }
 
-.key-links a:hover {
+#key-links a:hover {
     text-decoration: underline;
 }
 
