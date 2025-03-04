@@ -37,7 +37,7 @@ h3 {
 /* Header Styling */
 .header {
     background-color: #003366; /* Dark Blue Background */
-    color: #fff;
+    text-color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -47,16 +47,18 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.header-content {
+    color: white; /* Make all text inside header-content white */
+}
+
 .header-content h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color:#fff;
 }
 
 .header-content h2 {
     font-size: 1.25rem;
     font-weight: 400;
-    color:#fff;
 }
 
 /* Header Image Section */
