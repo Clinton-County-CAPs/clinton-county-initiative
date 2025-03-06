@@ -66,11 +66,11 @@ h3 {
 
 /* Header Image Section */
 .header-image img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    margin-top: 20px;
+    width: 100%;               /* Ensures the image stretches across the full width */
+    height: auto;              /* Keeps the image's aspect ratio intact */
+    object-fit: cover;         /* Ensures the image covers the entire area without distortion */
+    max-height: 400px;         /* Prevents the image from becoming too tall */
+    margin-top: 20px;          /* Adds a small gap at the top */
 }
 
 /* Main Sections */
@@ -79,21 +79,28 @@ section {
     margin: 20px 0;
 }
 
+/* About Us Section */
 #about-us {
-    background-color: #fff; /* White Background for About */
+    background-color: #fff;           /* White Background for About */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;                    /* Adds more padding inside the section */
+    margin: 30px 0;                   /* Adds more spacing between sections */
 }
 
+/* About Us List */
 #about-us ul {
     list-style: none;
     padding-left: 20px;
+    margin-bottom: 20px;              /* Adds more space between list items and other elements */
 }
 
+/* About Us List Items */
 #about-us ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;              /* Increases space between list items */
 }
 
+/* About Us Links */
 #about-us a {
     color: #003366;
     text-decoration: none;
@@ -102,6 +109,7 @@ section {
 #about-us a:hover {
     text-decoration: underline;
 }
+
 
 /* Meetings Section */
 #meetings {
