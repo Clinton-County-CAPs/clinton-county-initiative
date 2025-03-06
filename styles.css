@@ -174,12 +174,21 @@ section {
     margin: 40px 0;
 }
 
-/* Current Status Paragraphs */
+/* Key Links Section */
+#key-links h2 {
+    margin-bottom: 40px;              /* Large space below the title */
+    font-size: 2.5rem;                /* Matches other section titles */
+    color: #003366;                   /* Dark Navy Blue */
+    text-align: center;               /* Centers the title */
+}
+
+/* Current Status Paragraphs (Adjusting spacing like About Us) */
 #current-status p {
     margin-bottom: 20px;              /* Adds space between paragraphs */
     font-size: 1.1rem;                /* Slightly larger font size */
     line-height: 1.8;                 /* Increases line-height for readability */
 }
+
 
 #current-status .download-link {
     background-color: #003366; /* Dark Blue */
