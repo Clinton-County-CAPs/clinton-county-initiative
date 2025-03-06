@@ -142,23 +142,23 @@ section {
 
 /* Key Links Section */
 #key-links {
-    background-color: #fff;
-    padding: 40px;                          /* Same padding as Current Status */
-    margin: 40px 0;                         /* Same margin as Current Status */
-    border-radius: 8px;                     /* Same border-radius as Current Status */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Same box-shadow as Current Status */
+    background-color: #fff;                       /* White background */
+    padding: 40px;                                 /* Same padding as Current Status */
+    margin: 40px 0;                                /* Same margin as Current Status */
+    border-radius: 8px;                            /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     /* Box shadow */
 }
 
-/* Key Links h2 Styling */
+/* Key Links Section Heading (h2) */
 #key-links h2 {
-    font-size: 2.5rem;                       /* Same font-size as Current Status h2 */
-    color: #003366;                          /* Dark Navy Blue color */
-    margin-bottom: 40px;                     /* Same margin as Current Status */
-    text-align: left;                        /* Ensures text is aligned to the left */
-    font-weight: bold;                       /* Same font weight as Current Status */
+    font-size: 2.5rem;                             /* Larger font size */
+    color: #003366;                                /* Dark Navy Blue color */
+    margin-bottom: 40px;                           /* Space below the heading */
+    text-align: left;                              /* Align to the left */
+    font-weight: bold;                             /* Make it bold */
 }
 
-/* Key Links List */
+/* Styling for Links in Key Links Section */
 #key-links ul {
     list-style: none;
     padding-left: 0;
@@ -169,13 +169,14 @@ section {
 }
 
 #key-links a {
-    color: #e6a800;  /* Gold Accent */
-    text-decoration: none;
+    color: #e6a800;                               /* Gold color for links */
+    text-decoration: none;                        /* No underline by default */
 }
 
 #key-links a:hover {
-    text-decoration: underline;
+    text-decoration: underline;                   /* Underline on hover */
 }
+
 
 /* Current Status Section */
 #current-status {
