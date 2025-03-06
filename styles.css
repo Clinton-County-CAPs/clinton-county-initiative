@@ -154,7 +154,7 @@ section {
     font-size: 2.5rem !important;          /* Same font size as Current Status h2 */
     color: #003366 !important;             /* Dark Navy Blue color */
     margin-bottom: 40px !important;        /* Large margin below the title */
-    text-align: center !important;         /* Center align the heading */
+    text-align: left !important;         /* Center align the heading */
 }
 
 /* Key Links Paragraphs (Added for consistency with Current Status) */
