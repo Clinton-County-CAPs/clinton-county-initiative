@@ -170,14 +170,15 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    line-height: 1.8;                 /* More readable line-height */
+    padding: 40px;
+    margin: 40px 0;
 }
 
+/* Current Status Paragraphs */
 #current-status p {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    line-height: 1.8;                 /* More readable line-height */
+    margin-bottom: 20px;              /* Adds space between paragraphs */
+    font-size: 1.1rem;                /* Slightly larger font size */
+    line-height: 1.8;                 /* Increases line-height for readability */
 }
 
 #current-status .download-link {
