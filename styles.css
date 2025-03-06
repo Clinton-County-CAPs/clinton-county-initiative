@@ -140,29 +140,58 @@ section {
     margin: 20px 0;
 }
 
-/* Key Links Section */
+/* Key Links Section (Updated) */
 #key-links {
     background-color: #fff;
-    padding: 20px;
+    padding: 40px; /* Matching padding to Current Status */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0; /* Matching margin to Current Status */
 }
 
+/* Key Links Paragraphs (Added for consistency with Current Status) */
+#key-links p {
+    margin-bottom: 20px;              /* Adds space between paragraphs */
+    font-size: 1.1rem;                /* Slightly larger font size */
+    line-height: 1.8;                 /* Increases line-height for readability */
+}
+
+/* Key Links List */
 #key-links ul {
     list-style: none;
+    padding-left: 20px;
 }
 
+/* Key Links List Items */
 #key-links ul li {
-    margin: 10px 0;
+    margin-bottom: 20px;              /* More space between list items */
+    font-size: 1.1rem;
 }
 
+/* Key Links Anchor Styling */
 #key-links a {
     color: #e6a800; /* Gold Accent */
     text-decoration: none;
+    font-weight: bold;
 }
 
 #key-links a:hover {
     text-decoration: underline;
+}
+
+/* Key Links Download Link (Optional) */
+#key-links .download-link {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#key-links .download-link:hover {
+    background-color: #e6a800; /* Gold Accent Hover */
 }
 
 /* Current Status Section */
@@ -174,21 +203,12 @@ section {
     margin: 40px 0;
 }
 
-/* Key Links Section */
-#key-links h2 {
-    margin-bottom: 40px;              /* Large space below the title */
-    font-size: 2.5rem;                /* Matches other section titles */
-    color: #003366;                   /* Dark Navy Blue */
-    text-align: left;               /* Centers the title */
-}
-
 /* Current Status Paragraphs (Adjusting spacing like About Us) */
 #current-status p {
     margin-bottom: 20px;              /* Adds space between paragraphs */
     font-size: 1.1rem;                /* Slightly larger font size */
     line-height: 1.8;                 /* Increases line-height for readability */
 }
-
 
 #current-status .download-link {
     background-color: #003366; /* Dark Blue */
