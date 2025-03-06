@@ -149,6 +149,14 @@ section {
     margin: 40px 0; /* Matching margin to Current Status */
 }
 
+/* Key Links h2 Styling (Matching Current Status h2) */
+#key-links h2 {
+    font-size: 2.5rem;
+    color: #003366; /* Dark Navy Blue for headings */
+    margin-bottom: 40px; /* Large space below the title */
+    text-align: center; /* Ensures the title is centered */
+}
+
 /* Key Links Paragraphs (Added for consistency with Current Status) */
 #key-links p {
     margin-bottom: 20px;              /* Adds space between paragraphs */
