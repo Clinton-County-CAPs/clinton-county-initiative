@@ -84,20 +84,27 @@ section {
     background-color: #fff;           /* White Background for About */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 40px;                    /* Adds more padding inside the section */
-    margin: 30px 0;                   /* Adds more spacing between sections */
+    padding: 50px 40px;               /* Increased padding on all sides */
+    margin: 40px 0;                   /* Increased margin between this section and others */
+}
+
+/* About Us Title and Content */
+#about-us h2 {
+    margin-bottom: 30px;              /* Increased space after the title */
+    font-size: 2rem;
+    color: #003366;
 }
 
 /* About Us List */
 #about-us ul {
     list-style: none;
     padding-left: 20px;
-    margin-bottom: 20px;              /* Adds more space between list items and other elements */
+    margin-bottom: 30px;              /* Increased space between the list and other elements */
 }
 
 /* About Us List Items */
 #about-us ul li {
-    margin-bottom: 15px;              /* Increases space between list items */
+    margin-bottom: 20px;              /* Increased space between list items */
 }
 
 /* About Us Links */
@@ -109,7 +116,6 @@ section {
 #about-us a:hover {
     text-decoration: underline;
 }
-
 
 /* Meetings Section */
 #meetings {
