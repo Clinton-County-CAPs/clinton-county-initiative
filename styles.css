@@ -215,14 +215,18 @@ section {
     margin-bottom: 15px;     /* Space between list items */
 }
 
-#brochures a {
-    color: #003366;          /* Dark blue for the links */
-    text-decoration: none;   /* No underline */
-    font-weight: bold;       /* Bold text */
+#brochures .download-link {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-#brochures a:hover {
-    text-decoration: underline; /* Underline on hover */
+#brochures .download-link:hover {
+    background-color: #e6a800; /* Gold Accent Hover */
 }
 
 /* Current Status Section */
