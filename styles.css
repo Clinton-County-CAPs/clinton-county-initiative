@@ -220,48 +220,32 @@ section {
     font-size: 1rem;
 }
 
-/* Brochures Section */
 #brochures {
-    background-color: #fff;  /* White Background */
-    border-radius: 8px;      /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 40px;           /* Padding around the section */
-    margin: 40px 0;          /* Margin to separate it from other sections */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 40px 0;
 }
 
-/* Brochures Section Heading */
-#brochures h2 {
-    font-size: 2.5rem;       /* Larger font for the heading */
-    color: #003366;          /* Dark Navy Blue for the heading */
-    margin-bottom: 40px;     /* Space below the heading */
-    text-align: left;        /* Align text to the left */
-    font-weight: bold;       /* Make the heading bold */
-}
-
-/* Brochures Section Paragraph */
+/* Current Status Paragraphs (Adjusting spacing like About Us) */
 #brochures p {
-    font-size: 1.1rem;       /* Slightly larger text for the paragraph */
-    line-height: 1.8;        /* More readable line height */
-    color: #333;             /* Dark gray text */
-    margin-bottom: 30px;     /* Space between paragraph and buttons */
-    text-align: left;        /* Align the paragraph text to the left */
+    margin-bottom: 20px;              /* Adds space between paragraphs */
+    font-size: 1.1rem;                /* Slightly larger font size */
+    line-height: 1.8;                 /* Increases line-height for readability */
 }
 
-/* Brochure Links Styled as Buttons */
-#brochures .download-button {
-    background-color: #003366; /* Dark Blue Background */
-    color: white;             /* White Text */
-    padding: 10px 20px;       /* Padding around the text */
-    border-radius: 4px;       /* Rounded corners */
-    text-decoration: none;    /* Remove underline */
-    font-weight: bold;        /* Bold text */
-    display: inline-block;    /* Make the link behave like a block */
-    margin-bottom: 15px;      /* Space between each download button */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    width: auto;              /* Default width to match the content inside */
+#brochures .download-link {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-#brochures .download-button:hover {
+#brochures .download-link:hover {
     background-color: #e6a800; /* Gold Accent Hover */
 }
 
