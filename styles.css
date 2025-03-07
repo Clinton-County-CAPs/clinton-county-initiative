@@ -179,7 +179,7 @@ section {
 
 /* Brochures Section */
 #brochures {
-    background-color: #fff;  /* White Background for the brochures */
+    background-color: #fff;  /* White Background */
     border-radius: 8px;      /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     padding: 40px;           /* Padding around the section */
@@ -204,7 +204,7 @@ section {
     text-align: left;        /* Align the paragraph text to the left */
 }
 
-/* Brochure Links */
+/* Brochures Download Links (Styled as Buttons) */
 #brochures ul {
     list-style: none;        /* Remove default list styling */
     padding-left: 0;         /* Remove padding from list */
@@ -215,17 +215,18 @@ section {
     margin-bottom: 15px;     /* Space between list items */
 }
 
-#brochures .download-link {
-    background-color: #003366; /* Dark Blue */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
+#brochures .download-button {
+    background-color: #003366; /* Dark Blue Background */
+    color: white;             /* White Text */
+    padding: 10px 20px;       /* Padding around the text */
+    border-radius: 4px;       /* Rounded corners */
+    text-decoration: none;    /* Remove underline */
+    font-weight: bold;        /* Bold text */
+    display: inline-block;    /* Make the link behave like a block */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-#brochures .download-link:hover {
+#brochures .download-button:hover {
     background-color: #e6a800; /* Gold Accent Hover */
 }
 
