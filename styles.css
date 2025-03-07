@@ -93,7 +93,7 @@ section {
     margin-bottom: 40px;              /* Large space below the title */
     font-size: 2.5rem;
     color: #003366;
-    text-align: center;
+    text-align: left;
 }
 
 /* About Us Paragraphs */
@@ -177,6 +177,53 @@ section {
     text-decoration: underline;                   /* Underline on hover */
 }
 
+/* Brochures Section */
+#brochures {
+    background-color: #fff;  /* White Background for the brochures */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px;           /* Padding around the section */
+    margin: 40px 0;          /* Margin to separate it from other sections */
+}
+
+/* Brochures Section Heading */
+#brochures h2 {
+    font-size: 2.5rem;       /* Larger font for the heading */
+    color: #003366;          /* Dark Navy Blue for the heading */
+    margin-bottom: 40px;     /* Space below the heading */
+    text-align: left;        /* Align text to the left */
+    font-weight: bold;       /* Make the heading bold */
+}
+
+/* Brochures Section Paragraph */
+#brochures p {
+    font-size: 1.1rem;       /* Slightly larger text for the paragraph */
+    line-height: 1.8;        /* More readable line height */
+    color: #333;             /* Dark gray text */
+    margin-bottom: 30px;     /* Space between paragraph and list */
+    text-align: left;        /* Align the paragraph text to the left */
+}
+
+/* Brochure Links */
+#brochures ul {
+    list-style: none;        /* Remove default list styling */
+    padding-left: 0;         /* Remove padding from list */
+    margin-bottom: 40px;     /* More space below the list */
+}
+
+#brochures ul li {
+    margin-bottom: 15px;     /* Space between list items */
+}
+
+#brochures a {
+    color: #003366;          /* Dark blue for the links */
+    text-decoration: none;   /* No underline */
+    font-weight: bold;       /* Bold text */
+}
+
+#brochures a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
 /* Current Status Section */
 #current-status {
