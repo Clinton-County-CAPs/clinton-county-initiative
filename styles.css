@@ -1,4 +1,3 @@
-/* Global Reset & Basic Styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,15 +6,15 @@
 }
 
 body {
-    background-color: #f1f1f1; /* Light Gray Background */
-    color: #333; /* Dark Text */
+    background-color: #f1f1f1;
+    color: #333;
     line-height: 1.6;
 }
 
 /* Typography */
 h1, h2, h3 {
     font-family: 'PT Serif', serif;
-    color: #002147; /* Dark Navy Blue for headings */
+    color: #002147;
 }
 
 h1 {
@@ -30,13 +29,12 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    color: #e6a800; /* Gold Accent for h3 */
+    color: #e6a800; 
     margin-bottom: 0.5rem;
 }
 
-/* Header Styling */
 .header {
-    background-color: #003366; /* Dark Blue Background */
+    background-color: #003366;
     text-color: #fff;
     padding: 20px;
     text-align: center;
@@ -49,7 +47,7 @@ h3 {
 
 .header-content h1,
 .header-content h2 {
-    color: white !important; /* Ensures both h1 and h2 text are white */
+    color: white !important;
     text-align: center;
 }
 
@@ -64,59 +62,52 @@ h3 {
     font-weight: 400;
 }
 
-/* Header Image Section */
+
 .header-image img {
-    width: 100%;               /* Ensures the image stretches across the full width */
-    height: auto;              /* Keeps the image's aspect ratio intact */
-    object-fit: cover;         /* Ensures the image covers the entire area without distortion */
-    max-height: 400px;         /* Prevents the image from becoming too tall */
-    margin-top: 20px;          /* Adds a small gap at the top */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 400px;
+    margin-top: 20px;
 }
 
-/* Main Sections */
 section {
     padding: 40px;
     margin: 20px 0;
 }
 
-/* About Us Section */
 #about-us {
-    background-color: #fff;           /* White Background for About */
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 60px 40px;               /* Increased padding for more space inside */
-    margin: 40px 0;                   /* Increased margin to separate sections more */
+    padding: 60px 40px;
+    margin: 40px 0;
 }
 
-/* About Us Title */
 #about-us h2 {
-    margin-bottom: 40px;              /* Large space below the title */
+    margin-bottom: 40px;
     font-size: 2.5rem;
     color: #003366;
     text-align: left;
 }
 
-/* About Us Paragraphs */
 #about-us p {
-    margin-bottom: 20px;              /* Adds space between paragraphs */
+    margin-bottom: 20px;
     font-size: 1.1rem;
-    line-height: 1.8;                 /* More readable line-height */
+    line-height: 1.8;
 }
 
-/* About Us List */
 #about-us ul {
     list-style: none;
     padding-left: 20px;
-    margin-bottom: 40px;              /* More space below the list */
+    margin-bottom: 40px;
 }
 
-/* About Us List Items */
 #about-us ul li {
-    margin-bottom: 25px;              /* Increased space between list items */
+    margin-bottom: 25px;
     font-size: 1.1rem;
 }
 
-/* About Us Links */
 #about-us a {
     color: #003366;
     text-decoration: none;
@@ -127,7 +118,6 @@ section {
     text-decoration: underline;
 }
 
-/* Meetings Section */
 #meetings {
     background-color: #f8f8f8;
 }
@@ -140,25 +130,22 @@ section {
     margin: 20px 0;
 }
 
-/* Key Links Section */
 #key-links {
-    background-color: #fff;                       /* White background */
-    padding: 40px;                                 /* Same padding as Current Status */
-    margin: 40px 0;                                /* Same margin as Current Status */
-    border-radius: 8px;                            /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     /* Box shadow */
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Key Links Section Heading (h2) */
 #key-links h2 {
-    font-size: 2.5rem;                             /* Larger font size */
-    color: #003366;                                /* Dark Navy Blue color */
-    margin-bottom: 40px;                           /* Space below the heading */
-    text-align: left;                              /* Align to the left */
-    font-weight: bold;                             /* Make it bold */
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 40px;
+    text-align: left;
+    font-weight: bold;
 }
 
-/* Styling for Links in Key Links Section */
 #key-links ul {
     list-style: none;
     padding-left: 0;
@@ -169,15 +156,14 @@ section {
 }
 
 #key-links a {
-    color: #e6a800;                               /* Gold color for links */
-    text-decoration: none;                        /* No underline by default */
+    color: #e6a800;
+    text-decoration: none;
 }
 
 #key-links a:hover {
-    text-decoration: underline;                   /* Underline on hover */
+    text-decoration: underline; 
 }
 
-/* Current Status Section */
 #current-status {
     background-color: #fff;
     border-radius: 8px;
@@ -186,15 +172,14 @@ section {
     margin: 40px 0;
 }
 
-/* Current Status Paragraphs (Adjusting spacing like About Us) */
 #current-status p {
-    margin-bottom: 20px;              /* Adds space between paragraphs */
-    font-size: 1.1rem;                /* Slightly larger font size */
-    line-height: 1.8;                 /* Increases line-height for readability */
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 #current-status .download-link {
-    background-color: #003366; /* Dark Blue */
+    background-color: #003366;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -204,10 +189,9 @@ section {
 }
 
 #current-status .download-link:hover {
-    background-color: #e6a800; /* Gold Accent Hover */
+    background-color: #e6a800;
 }
 
-/* Footer Styling */
 .footer {
     background-color: #003366;
     color: #fff;
@@ -228,15 +212,14 @@ section {
     margin: 40px 0;
 }
 
-/* Current Status Paragraphs (Adjusting spacing like About Us) */
 #brochures p {
-    margin-bottom: 20px;              /* Adds space between paragraphs */
-    font-size: 1.1rem;                /* Slightly larger font size */
-    line-height: 1.8;                 /* Increases line-height for readability */
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 #brochures .download-link {
-    background-color: #003366; /* Dark Blue */
+    background-color: #003366;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -246,10 +229,9 @@ section {
 }
 
 #brochures .download-link:hover {
-    background-color: #e6a800; /* Gold Accent Hover */
+    background-color: #e6a800;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .header-content h1 {
         font-size: 2rem;
