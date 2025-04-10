@@ -246,7 +246,7 @@ section {
     line-height: 1.8;
 }
 
-#voterletter .download-link-vl {
+#voterletter .download-link {
     background-color: #003366;
     color: white;
     padding: 10px 20px;
@@ -274,7 +274,7 @@ section {
     line-height: 1.8;
 }
 
-#bylaws .download-link-bl {
+#bylaws .download-link {
     background-color: #003366;
     color: white;
     padding: 10px 20px;
