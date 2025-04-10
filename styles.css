@@ -232,6 +232,62 @@ section {
     background-color: #e6a800;
 }
 
+#voterletter {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 40px 0;
+}
+
+#voterletter p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#voterletter .download-link {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#voterletter .download-link:hover {
+    background-color: #e6a800;
+}
+
+#bylaws {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 40px 0;
+}
+
+#bylaws p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#bylaws .download-link {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#bylaws .download-link:hover {
+    background-color: #e6a800;
+}
+
 @media (max-width: 768px) {
     .header-content h1 {
         font-size: 2rem;
