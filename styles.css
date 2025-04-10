@@ -254,6 +254,7 @@ section {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+    z-index: 9999;
 }
 
 #voterletter .download-link:hover {
@@ -282,6 +283,7 @@ section {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+    z-index: 9999;
 }
 
 #bylaws .download-link:hover {
